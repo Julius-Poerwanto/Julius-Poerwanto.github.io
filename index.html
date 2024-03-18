@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Julius Poerwanto</title>
+</head>
+
+<body class="bg-dark">
+    <header>
+        <nav class="bg-transparent px-[155px] pt-[32px] text-light">
+            <div class="flex justify-between items-center">
+                <!-- LOGO -->
+                <a href="#" class="flex items-center">
+                    <span href="#" class="text-2xl font-semibold pl-2">
+                        <span class="text-green">J</span>P
+                    </span>
+                </a>
+
+                <!-- MENU -->
+                <div class="block">
+                    <a href="#about-me" class="mx-6 font-light text-2xl hover:text-green">
+                        Home
+                    </a>
+                    <a href="#about-me" class="mx-6 font-light text-2xl hover:text-green">
+                        About Me
+                    </a>
+                    <a href="#contact" class="mx-6 font-light text-2xl hover:text-green">
+                        Contact
+                    </a>
+                </div>
+
+                <!-- DOWNLOAD CV -->
+                <div class="bg-gray px-4 py-2 rounded-lg hover:bg-green/80">
+                    <a href="/src/assets/file/CV Julius Poerwanto.pdf">
+                        <span class="font-light pr-8">
+                            Download CV
+                        </span>
+                        <svg class="w-4 fill-light inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M8.29,13.29a1,1,0,0,0,0,1.42l3,3a1,1,0,0,0,1.42,0l3-3a1,1,0,0,0-1.42-1.42L13,14.59V3a1,1,0,0,0-2,0V14.59l-1.29-1.3A1,1,0,0,0,8.29,13.29ZM18,9H16a1,1,0,0,0,0,2h2a1,1,0,0,1,1,1v7a1,1,0,0,1-1,1H6a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1H8A1,1,0,0,0,8,9H6a3,3,0,0,0-3,3v7a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V12A3,3,0,0,0,18,9Z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero static inline-block">
+            <!-- HELLO -->
+            <div class="absolute mx-[125px] text-[310px] text-gray font-bold opacity-50">
+                <h1>
+                    HELLO
+                </h1>
+            </div>
+
+            <!-- NAME -->
+            <div class="static flex mx-[125px] mt-[375px] place-content-start" id="about-me">
+                <div class="grid">
+                    <h1 class="text-light text-[68px] font-bold">
+                        I'm <br>
+                        <span class="text-main">Julius</span> Poerwanto
+                    </h1>
+                    <div class="pt-4 pb-2">
+                        <div class="w-[192px] h-0 border-[3.5px] border-green bg-green rounded-lg">
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="font-light text-light text-[26px] pt-4">
+                            Currently studying in 6<sup>rd</sup> semester majoring in
+                            <br> Information Systems. The current GPA is 3,69.
+                            <br> Looking for job opportunities that provide
+                            <br> opportunities to gain experience.
+                        </h2>
+                    </div>
+                </div>
+                <!-- HERO IMAGE -->
+                <div class="absolute ml-[655px] mt-[45px]">
+                    <div class="box-border bg-main w-[457px] h-[457px] rounded-[100px] origin-center rotate-45">
+                        <img class="absolute -rotate-45" src="/src/assets/img/profile-pic.png" alt="My Profile">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex mx-[125px] mt-[375px] text-[26px] text-light justify-between items-center" id="contact">
+                <div class="inline-block">
+                    CONTACT
+                    <a href="https://bit.ly/linkedinJulius" class="mx-6 font-light text-2xl inline-block hover:text-green">
+                        <img src="/src/assets/img/linkedin.png" alt="LinkedIn" width="35px" height="auto">
+                    </a>
+                    <a href="mailto:poerwanto322@gmail.com" class="mx-6 font-light text-2xl inline-block hover:text-green">
+                        <img src="/src/assets/img/mail.png" alt="mail" width="35px" height="auto">
+                    </a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
